@@ -6,8 +6,7 @@ let db;
 
 app.use(express.static("public"));
 
-let connectionString =
-  "mongodb+srv://todoAppUser:todoAppUserPass@cluster0-wuei8.mongodb.net/TodoApp?retryWrites=true&w=majority";
+let connectionString = "insert MongoDB string here";
 
 mongodb.connect(
   connectionString,
